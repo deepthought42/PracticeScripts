@@ -1,0 +1,70 @@
+#ticTacToe{
+	width:	300px;
+	height:	300px;
+	border-collapse:	collapse;
+}
+
+#ticTacToe td {
+	width:	33%;
+	height:	33%;
+	text-align:	center;
+}
+
+.col1 {
+	border-right: solid #000000;
+}
+
+.col2 {
+	border-right: solid #000000;
+}
+
+.row1 td{
+	border-bottom: solid #000000;
+}
+
+.row2 td{
+	border-bottom: solid #000000;
+}
+
+.piece {
+	font-size:	3em;
+	color:	red;
+}
+
+#playerTracker {
+	display:	inline-block;
+	border:	solid black;
+	width:	15%;
+	height:	20%;
+}
+
+.player {
+	float:	left;
+	width:	50%;
+	height:	100%;
+	font-size:	3em;
+	text-align:	center;
+}
+
+#reset {
+	position:	relative;
+	float:		left;
+	text-align:	center;
+	width: 		75px;
+	height:		75px;
+	border:		solid black;
+	background-color:	#aaaaaa;
+	border-radius:		40px;
+}
+
+#gameWrapper {
+	display: inline-block;
+}
+
+.O {
+	color:	red;
+}
+
+.X {
+	color:	blue;
+}
